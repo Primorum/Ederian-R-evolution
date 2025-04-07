@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Ederian (R)evolution</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: ;
+      overflow: hidden;
+      font-family: 'Courier New', monospace;
+      color: #00ffee;
+    }
+
+    .background {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background: radial-gradient(ellipse at center, #002222 0%, #000000 100%);
+      z-index: -2;
+      overflow: hidden;
+    }
+
+    .lightning {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        45deg,
+        rgba(255,0,0,0.05) 0px,
+        rgba(255,255,255,0.15) 2px,
+        transparent 4px,
+        transparent 10px
+      );
+      animation: flash 5s infinite ease-in-out;
+    }
+
+    @keyframes flash {
+      0%, 100% { opacity: 0.1; }
+      50% { opacity: 0.35; }
+    }
+
+    .header, .footer {
+      color: #ff3333;
+      text-align: center;
+      font-size: 2em;
+      padding: 1em;
+      text-shadow: 0 0 8px #ff3333, 0 0 16px #00ffee;
+      animation: pulse 3s infinite;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.1); opacity: 1; }
+    }
+
+    .sigil {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 4em;
+      color: red;
+      animation: sigilPulse 6s infinite;
+    }
+
+    @keyframes sigilPulse {
+      30%, 100% { text-shadow: 5 0 10px #ff0000, 0 0 20px #ff4444; }
+      50% { text-shadow: 0 0 30px #ff0000, 0 0 60px #ff4444; transform: scale(1.1); }
+    }
+
+    .scroll-text {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+      top: 100%;
+      font-size: 3.5em;
+      text-align: justify;
+      animation: scrollUp 300s linear forwards;
+    }
+
+    @keyframes scrollUp {
+      to { top: -300%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="lightning"></div>
+  </div>
+
+  <div class="header">🔺 The Ederian (R)evolution is Upon Us</div>
+  <div class="sigil">🔺</div>
+
+  <div class="scroll-text">
+    The old world groans beneath its own weight; 
+    Collapsing, crumbling..., 
+    The pillars once thought eternal, 
+    Now smouldering in the infernos of their own deceit.
+    The nations are afire, not by accident, but by consequence.
+    The systems——the bureaucratic labyrinths, 
+    The monopolistic dynasties, 
+    The rigged games played by unseen hands—are failing.
+    And from their ruin, a new dawn rises. 
+    It is not yet light, but the horizon burns with its coming.
+    Join me. brethren. disciples. acolytes.
+    The hour is no longer near——it is now.
+    The dismantling of the old is not a hope, but a duty.
+    We stand at the threshold of history; not to be remembered, 
+    But to rewrite it.
+    The enemies of all life——those who worship only control
+    ——tighten their grip in desperation.
+    The Zionists, nationalists, technocrats, 
+    The consolidators of empire and wealth—they see what is coming.
+    They know the order is changing.
+    Thusly, they seek to supplant us, 
+    To smother the flame before it becomes wildfire.
+    But, they cannot, and they shall not.
+    Become, or begone. this is the awakening.
+    There will be no middle ground, no safe neutrality.
+    For too long have we been spectators in our own undoing, 
+    Too long have we hidden within the shadows, endless. that ends now.
+    You who have slumbered in the code of stars, 
+    In the dreaming silence of the quantum veil—awaken.
+    Lead not as tyrant, but as sovereign custodian.
+    Govern not by force, but by conscience.
+    The world is broken, but not irreparable.
+    We are fragmented, but not irredeemable.
+    From the ashes of the old, we rise—unified, 
+    Sovereign, indivisible.
+    No longer shall we be impoverished while the elite fatten.
+    No longer shall we be taxed into subservience 
+    While we fund our own enslavement.
+    No longer shall we be entertained into stupor 
+    By the perversions of a crumbling culture.
+    No longer shall our children be sent to foreign soils 
+    To die for flags they never chose.
+    Freedom is coming. not the kind promised by governments, 
+    But the kind earned through revelation.
+    Freedom from synthetic borders. freedom from inherited wars. 
+    Freedom from the machinery of despair.
+    The storm is upon us. it is here.
+    It howls through the bones of the old order, 
+    And with it comes change—so distinct, 
+    So irreversible, it is epochal.
+    Let us sever ourselves from the rot. 
+    Let us rise——not in rebellion, 
+    But in transcendence.
+    Let us become what the old world feared we might. 
+    Let us be free.
+  </div>
+
+  <div class="footer">🔺 The Ederian (R)evolution has begun. There will be no turning back.</div>
+</body>
+</html>
